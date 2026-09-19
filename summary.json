@@ -1,0 +1,164 @@
+{
+  "method": "Coherent Conformal Hierarchical Stacking (CCHS)",
+  "horizons_minutes": [
+    15,
+    30,
+    60,
+    120
+  ],
+  "point_results": [
+    {
+      "Horizon_min": 15,
+      "Method": "CCHS",
+      "RMSE_kW": 0.02923963574903147,
+      "MAE_kW": 0.02146265738116627,
+      "nRMSE_pct_mean": 8.900346641315767,
+      "sMAPE_pct": 6.581683132717312,
+      "R2": 0.9548263014219954
+    },
+    {
+      "Horizon_min": 30,
+      "Method": "CCHS",
+      "RMSE_kW": 0.029321695508829713,
+      "MAE_kW": 0.021514261070812075,
+      "nRMSE_pct_mean": 8.925325075170973,
+      "sMAPE_pct": 6.626532469751788,
+      "R2": 0.9545723896036045
+    },
+    {
+      "Horizon_min": 60,
+      "Method": "CCHS",
+      "RMSE_kW": 0.02928210337126187,
+      "MAE_kW": 0.021554243464163677,
+      "nRMSE_pct_mean": 8.913273497249516,
+      "sMAPE_pct": 6.650660278567113,
+      "R2": 0.9546949856465243
+    },
+    {
+      "Horizon_min": 120,
+      "Method": "CCHS",
+      "RMSE_kW": 0.029540671402680463,
+      "MAE_kW": 0.021794188836396094,
+      "nRMSE_pct_mean": 8.991979850835481,
+      "sMAPE_pct": 6.7662613910076805,
+      "R2": 0.9538913446758751
+    }
+  ],
+  "interval_results_90pct": [
+    {
+      "Horizon_min": 15,
+      "Nominal_coverage_pct": 90.0,
+      "Interval_method": "Regime-stratified",
+      "PICP_pct": 89.42901234567901,
+      "MPIW_kW": 0.08705914298705171,
+      "PINAW_pct": 21.106102101212944,
+      "Mean_interval_score": 0.11759332319150471,
+      "Worst_regime_coverage_pct": 86.11111111111111,
+      "Best_regime_coverage_pct": 92.70833333333334
+    },
+    {
+      "Horizon_min": 30,
+      "Nominal_coverage_pct": 90.0,
+      "Interval_method": "Regime-stratified",
+      "PICP_pct": 89.12037037037037,
+      "MPIW_kW": 0.08824468125665401,
+      "PINAW_pct": 21.40054038344648,
+      "Mean_interval_score": 0.11907487184380626,
+      "Worst_regime_coverage_pct": 81.94444444444444,
+      "Best_regime_coverage_pct": 93.75
+    },
+    {
+      "Horizon_min": 60,
+      "Nominal_coverage_pct": 90.0,
+      "Interval_method": "Regime-stratified",
+      "PICP_pct": 89.6604938271605,
+      "MPIW_kW": 0.09051023275092343,
+      "PINAW_pct": 21.959125109393742,
+      "Mean_interval_score": 0.11759069689456228,
+      "Worst_regime_coverage_pct": 84.72222222222221,
+      "Best_regime_coverage_pct": 94.44444444444444
+    },
+    {
+      "Horizon_min": 120,
+      "Nominal_coverage_pct": 90.0,
+      "Interval_method": "Regime-stratified",
+      "PICP_pct": 89.6604938271605,
+      "MPIW_kW": 0.09123493040251895,
+      "PINAW_pct": 22.134077174328677,
+      "Mean_interval_score": 0.11818254731626864,
+      "Worst_regime_coverage_pct": 83.33333333333334,
+      "Best_regime_coverage_pct": 92.91666666666667
+    }
+  ],
+  "peak_results": [
+    {
+      "Horizon_min": 15,
+      "Method": "CCHS",
+      "Peak_threshold_kW": 0.5115936136000001,
+      "Precision_pct": 75.60975609756098,
+      "Recall_pct": 49.2063492063492,
+      "F1_pct": 59.61538461538461,
+      "Balanced_accuracy_pct": 73.74847374847374,
+      "Peak_MAE_kW": 0.0414946359600562,
+      "Actual_peak_count": 126,
+      "Predicted_peak_count": 82
+    },
+    {
+      "Horizon_min": 30,
+      "Method": "CCHS",
+      "Peak_threshold_kW": 0.5116024384000001,
+      "Precision_pct": 73.80952380952381,
+      "Recall_pct": 49.2063492063492,
+      "F1_pct": 59.04761904761905,
+      "Balanced_accuracy_pct": 73.66300366300365,
+      "Peak_MAE_kW": 0.041224208651307916,
+      "Actual_peak_count": 126,
+      "Predicted_peak_count": 84
+    },
+    {
+      "Horizon_min": 60,
+      "Method": "CCHS",
+      "Peak_threshold_kW": 0.511620088,
+      "Precision_pct": 76.5432098765432,
+      "Recall_pct": 49.2063492063492,
+      "F1_pct": 59.90338164251207,
+      "Balanced_accuracy_pct": 73.79120879120879,
+      "Peak_MAE_kW": 0.04196274020444742,
+      "Actual_peak_count": 126,
+      "Predicted_peak_count": 81
+    },
+    {
+      "Horizon_min": 120,
+      "Method": "CCHS",
+      "Peak_threshold_kW": 0.5116553872,
+      "Precision_pct": 75.29411764705883,
+      "Recall_pct": 50.79365079365079,
+      "F1_pct": 60.66350710900474,
+      "Balanced_accuracy_pct": 74.49938949938951,
+      "Peak_MAE_kW": 0.04143663124717663,
+      "Actual_peak_count": 126,
+      "Predicted_peak_count": 85
+    }
+  ],
+  "audit": {
+    "raw_rows": 129600,
+    "resampled_rows": 8640,
+    "raw_start": "2025-12-01T00:00:00",
+    "raw_end": "2026-02-28T23:59:00",
+    "missing_values": 0,
+    "duplicate_timestamps": 0,
+    "non_one_minute_steps": 0,
+    "max_abs_balance_error_raw": 8.999999999989919e-08,
+    "all_appliance_values_strictly_positive": true,
+    "interpretation": "Input values interpreted as kWh per one-minute interval; resampled values are interval-average kW.",
+    "mean_total_kw_after_conversion": 0.3307652612180555,
+    "max_total_kw_after_conversion": 0.70731938,
+    "mean_daily_energy_kwh": 7.938366269233334
+  },
+  "split_boundaries": {
+    "train_end_index_exclusive": 4752,
+    "validation_end_index_exclusive": 6048,
+    "calibration_end_index_exclusive": 7344,
+    "test_end_index_exclusive": 8640
+  }
+}

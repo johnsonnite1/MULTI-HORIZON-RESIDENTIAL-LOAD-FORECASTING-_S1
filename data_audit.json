@@ -1,0 +1,15 @@
+{
+  "raw_rows": 129600,
+  "resampled_rows": 8640,
+  "raw_start": "2025-12-01T00:00:00",
+  "raw_end": "2026-02-28T23:59:00",
+  "missing_values": 0,
+  "duplicate_timestamps": 0,
+  "non_one_minute_steps": 0,
+  "max_abs_balance_error_raw": 8.999999999989919e-08,
+  "all_appliance_values_strictly_positive": true,
+  "interpretation": "Input values interpreted as kWh per one-minute interval; resampled values are interval-average kW.",
+  "mean_total_kw_after_conversion": 0.3307652612180555,
+  "max_total_kw_after_conversion": 0.70731938,
+  "mean_daily_energy_kwh": 7.938366269233334
+}
